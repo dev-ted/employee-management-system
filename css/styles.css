@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #EEEEEE;
+    background-repeat: no-repeat
+}
+#top{
+   
+   
+    font-family:  'Roboto', sans-serif;
+    font-size: 40px;
+    margin-left: -3px;
+    text-transform: uppercase;
+    background-color: #1cb1ec;
+    text-align: center;
+    line-height: 1.4;
+    color: #EEEEEE;
+    margin-top: 10px;
+  
+
+}
+#top.h4{
+    font-size: 40px;
+    height: 40px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 20px;
+    font-family: 'Roboto' sans-serif;
+    
+}
+
+.card0 {
+    box-shadow: 0px 4px 8px 0px #15f8ac;
+    border-radius: 0px;
+    margin-top: 70px;
+    height: 100%;
+ 
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.card2 {
+    margin: 80px 40px;
+    background-color: #21ceec;
+    
+}
+
+.img-fluid {
+    
+    margin-top: 20px;
+    margin-left: 35px;
+    height: 90px;
+}
+
+.image {
+    width: 360px;
+    height: 280px
+}
+
+.border-line {
+    border-right: 1px solid #EEEEEE
+}
+
+
+
+
+.btn:hover {
+    background-color: rgb(13, 243, 174);
+    
+}
+
+.bg-blue {
+    color: #fff;
+    background-color: #0fe762
+}
+
+@media screen and (max-width: 991px) {
+    .logo {
+        margin-left: 0px
+    }
+
+    .image {
+        width: 300px;
+        height: 220px
+    }
+
+    .border-line {
+        border-right: none
+    }
+
+    .card2 {
+        border-top: 1px solid #EEEEEE !important;
+        margin: 0px 15px
+    }
+}

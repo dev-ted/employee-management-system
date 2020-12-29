@@ -1,0 +1,272 @@
+section
+{
+    padding-left: 220px;
+    padding-right: 10px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    @media screen and (max-width: 991px)
+      padding-left: 70px;
+}
+
+.maintitle{
+    padding: 20px 0 0px 0%;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+ 
+.timesheet-navigation  {
+    margin-top: -30px;
+    margin-left: -12px;
+}
+ 
+  
+.timesheet-buttons{
+    margin-top: 30px;
+  @media screen and (max-width: 1650px);
+}
+  
+  
+.today-timesheet{
+    margin-top: 30px;
+    position: relative;
+    top: -66px;
+    left: 200px;
+}
+
+
+.newmsgb, #theDate {
+    border: solid 1px ;
+    background-color: transparent;
+    color : green;
+    border-radius: 5px;
+    padding: 7px 15px 7px 15px;
+    white-space: nowrap;
+} 
+ 
+
+.newmsgb   
+  :hover :focus{
+    background-color: green;
+    color: white;
+    outline: none !important;
+  }
+    
+  
+    
+  
+    
+ 
+#theDate {
+    margin-top: 5px;
+} 
+ 
+  
+.add-task-timesheet{
+
+}
+
+ 
+  
+.tab-text{
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+.tab-title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1AAEAB;
+    color: white;
+    font-weight: 100;
+}
+
+
+    
+  div{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 5px;
+  }
+    
+  
+       
+.picked-day{
+    font-size: 24px;
+    color: green;
+}
+ 
+  
+.dropdown-timesheet{
+    position: relative;
+    color: black;
+    top: -42px;
+    left: 140px;
+}
+
+  .timesheet-button{
+    font-size: 14px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius:5px;
+    padding: 5px 15px 5px 15px  ;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+   
+    
+    .fa-sort{
+        padding-right: 6px;
+    }
+      
+ 
+.timesheet-menu>li>a:focus, .timesheet-menu>li>a:hover{
+    background-color: green;
+}
+  
+
+.modal-backdrop.in{
+    z-index: 0 !important;
+    opacity: 0;
+}
+ 
+
+.modal-content{
+    box-shadow: none !important;
+} 
+ 
+ 
+ 
+.timesheet.modal-title{
+    text-align: center;
+}
+    
+ 
+.select2-container{
+    width: 255px !important;
+}
+ 
+  
+.timesheet  select, input{
+    color: #444;
+    line-height: 28px;
+    padding-left: 8px;
+    padding-right: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius:4px;
+    width: 255px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+}
+ 
+    
+  
+ 
+  
+.timesheet-description{
+    height: 118px !important;
+    padding-bottom: 83px !important;
+    
+}
+ 
+  
+.user-aciton{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    width: 255px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 23px;
+    background-color: #E46A6A;
+    left: 0px;
+    top: 0px;
+    -webkit-transition: all .1s ease, top .1s ease .1s, height .1s ease .1s, background-color .1s ease .1s;
+    transition: all .1s ease, top .1s ease .1s, height .1s ease .1s, background-color .1s ease .1s;
+    padding: 0;
+}
+
+ 
+    
+
+.timesheet-task-row{
+    padding-top: 10px;
+}
+ 
+  
+.nav-tabs{
+    background-color: white;
+    border: none;
+    width: 100%;
+}
+ 
+  
+.nav-tabs>li{
+    width: 150px;
+    text-align: center;
+}
+  
+  
+    
+.nav-tabs>li>a{
+    color: green;
+    font-weight: 700;
+    font-size: 15px;
+    height: 60px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+ 
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    border: none;
+    border-bottom: solid 3px #dd915b;
+    border-radius: 0px;
+    color: green;
+    z-index: 1;
+}
+
+
+.nav > li > a:focus, .nav > li > a:hover{
+    background-color: rgba(28, 127, 125, 0.02);
+    border: none ;
+    border-radius: 0px !important;
+} 
+ 
+  
+.tab-content{
+    overflow: hidden;
+}
+ 
+
+.tab-text{
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+  
+
+.tab-title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1AAEAB;
+    color: white;
+    font-weight: 100;
+}
+ 
+  

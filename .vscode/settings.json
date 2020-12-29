@@ -1,0 +1,40 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "database": "moshaelectronics_db",
+            "dialect": "MySQL",
+            "name": "Dnconnection",
+            "port": 3308,
+            "server": "localhost",
+            "username": "root",
+            "driver": "MySQL"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3308,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "name": "app",
+            "database": "ems_db",
+            "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3308,
+            "driver": "MySQL",
+            "name": "conect",
+            "database": "ems_db",
+            "username": "root",
+            "password": ""
+        }
+    ]
+}
